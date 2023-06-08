@@ -1,13 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
+import Welcome from './welcome.js'
+import UseStateForm from './UseStateForm';
+import "./style.css" ;
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Edit <code>src/App.js</code> and save to reloadw
         </p>
         <a
           className="App-link"
@@ -17,7 +21,9 @@ function App() {
         >
           Learn React
         </a>
-      </header>
+      </header> */}
+      < UseStateForm />
+    
     </div>
   );
 }
